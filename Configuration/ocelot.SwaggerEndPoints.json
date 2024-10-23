@@ -1,0 +1,31 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "contacts",
+      "Config": [
+        {
+          "Name": "Contacts API",
+          "Version": "v1",
+          "Service": {
+            "Name": "contacts",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "projects",
+      "Config": [
+        {
+          "Name": "Projects API",
+          "Version": "v1",
+          "Service": {
+            "Name": "projects",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    } 
+
+  ]
+}

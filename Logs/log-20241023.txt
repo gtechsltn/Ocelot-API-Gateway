@@ -1,0 +1,148 @@
+2024-10-23 15:04:02.238 +06:00 [INF] User profile is available. Using 'C:\Users\Hasan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-23 15:04:02.927 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:04:02.958 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:04:03.019 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/swagger/index.html - null null
+2024-10-23 15:04:03.019 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - application/json 768
+2024-10-23 15:04:03.103 +06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 15:04:03.112 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 15:04:03.113 +06:00 [INF] Hosting environment: Development
+2024-10-23 15:04:03.114 +06:00 [INF] Content root path: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG
+2024-10-23 15:04:03.250 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/swagger/index.html - 200 null text/html;charset=utf-8 233.152ms
+2024-10-23 15:04:03.326 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-23 15:04:03.335 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.5076ms
+2024-10-23 15:04:03.408 +06:00 [INF] requestId: 400000ce-0008-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:04:03.411 +06:00 [INF] requestId: 400000ce-0008-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v4/spg/CreatePayment is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2024-10-23 15:04:03.412 +06:00 [INF] requestId: 400000ce-0008-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Client has been authenticated for /api/v4/spg/CreatePayment
+2024-10-23 15:04:03.417 +06:00 [INF] requestId: 400000ce-0008-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2024-10-23 15:04:03.419 +06:00 [INF] requestId: 400000ce-0008-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2024-10-23 15:04:03.419 +06:00 [INF] requestId: 400000ce-0008-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v3/spgservice/CreatePaymentRequest route does not require user to be authorized
+2024-10-23 15:04:03.525 +06:00 [WRN] requestId: 400000ce-0008-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://10.32.20.86:6314/api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:04:03.556 +06:00 [INF] Request finished HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - 401 61 application/json; charset=utf-8 540.0712ms
+2024-10-23 15:04:03.569 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - null null
+2024-10-23 15:04:03.607 +06:00 [INF] Start processing HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:04:03.609 +06:00 [INF] Sending HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:04:03.676 +06:00 [INF] Received HTTP response headers after 64.8102ms - 200
+2024-10-23 15:04:03.677 +06:00 [INF] End processing HTTP request after 76.5053ms - 200
+2024-10-23 15:04:03.771 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - 200 null null 202.1649ms
+2024-10-23 15:06:15.612 +06:00 [INF] User profile is available. Using 'C:\Users\Hasan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-23 15:06:16.291 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:06:16.325 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:06:16.397 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/swagger/index.html - null null
+2024-10-23 15:06:16.397 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - application/json 768
+2024-10-23 15:06:16.509 +06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 15:06:16.511 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 15:06:16.521 +06:00 [INF] Hosting environment: Development
+2024-10-23 15:06:16.522 +06:00 [INF] Content root path: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG
+2024-10-23 15:06:16.671 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/swagger/index.html - 200 null text/html;charset=utf-8 275.9115ms
+2024-10-23 15:06:16.744 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-23 15:06:16.752 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.19ms
+2024-10-23 15:06:16.826 +06:00 [INF] requestId: 40000020-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:06:16.830 +06:00 [INF] requestId: 40000020-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v4/spg/CreatePayment is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2024-10-23 15:06:16.834 +06:00 [INF] requestId: 40000020-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: Client has been authenticated for /api/v4/spg/CreatePayment
+2024-10-23 15:06:16.837 +06:00 [INF] requestId: 40000020-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2024-10-23 15:06:16.839 +06:00 [INF] requestId: 40000020-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2024-10-23 15:06:16.839 +06:00 [INF] requestId: 40000020-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v3/spgservice/CreatePaymentRequest route does not require user to be authorized
+2024-10-23 15:06:16.967 +06:00 [WRN] requestId: 40000020-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://10.32.20.86:6314/api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:06:17.000 +06:00 [INF] Request finished HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - 401 61 application/json; charset=utf-8 605.4387ms
+2024-10-23 15:06:17.009 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - null null
+2024-10-23 15:06:17.040 +06:00 [INF] Start processing HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:06:17.041 +06:00 [INF] Sending HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:06:17.095 +06:00 [INF] Received HTTP response headers after 51.2817ms - 200
+2024-10-23 15:06:17.095 +06:00 [INF] End processing HTTP request after 61.0962ms - 200
+2024-10-23 15:06:17.187 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - 200 null null 178.8028ms
+2024-10-23 15:06:18.411 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - application/json 768
+2024-10-23 15:06:18.414 +06:00 [INF] requestId: 40000021-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:06:18.414 +06:00 [INF] requestId: 40000021-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v4/spg/CreatePayment is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2024-10-23 15:06:18.415 +06:00 [INF] requestId: 40000021-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: Client has been authenticated for /api/v4/spg/CreatePayment
+2024-10-23 15:06:18.415 +06:00 [INF] requestId: 40000021-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2024-10-23 15:06:18.415 +06:00 [INF] requestId: 40000021-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2024-10-23 15:06:18.415 +06:00 [INF] requestId: 40000021-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v3/spgservice/CreatePaymentRequest route does not require user to be authorized
+2024-10-23 15:06:18.426 +06:00 [WRN] requestId: 40000021-0003-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://10.32.20.86:6314/api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:06:18.429 +06:00 [INF] Request finished HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - 401 61 application/json; charset=utf-8 17.3876ms
+2024-10-23 15:15:38.172 +06:00 [INF] User profile is available. Using 'C:\Users\Hasan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-23 15:15:38.862 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:15:38.891 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:15:38.965 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/swagger/index.html - null null
+2024-10-23 15:15:38.965 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - application/json 768
+2024-10-23 15:15:39.087 +06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 15:15:39.114 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 15:15:39.116 +06:00 [INF] Hosting environment: Development
+2024-10-23 15:15:39.116 +06:00 [INF] Content root path: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG
+2024-10-23 15:15:39.277 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/swagger/index.html - 200 null text/html;charset=utf-8 320.7199ms
+2024-10-23 15:15:39.356 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-23 15:15:39.365 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.5845ms
+2024-10-23 15:15:39.449 +06:00 [INF] requestId: 40000037-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:15:39.453 +06:00 [INF] requestId: 40000037-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v4/spg/CreatePayment is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2024-10-23 15:15:39.456 +06:00 [INF] requestId: 40000037-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Client has been authenticated for /api/v4/spg/CreatePayment
+2024-10-23 15:15:39.462 +06:00 [INF] requestId: 40000037-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2024-10-23 15:15:39.466 +06:00 [INF] requestId: 40000037-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2024-10-23 15:15:39.466 +06:00 [INF] requestId: 40000037-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v3/spgservice/CreatePaymentRequest route does not require user to be authorized
+2024-10-23 15:15:39.595 +06:00 [WRN] requestId: 40000037-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://10.32.20.86:6314/api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:15:39.618 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - null null
+2024-10-23 15:15:39.634 +06:00 [INF] Request finished HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - 401 61 application/json; charset=utf-8 678.1741ms
+2024-10-23 15:15:39.661 +06:00 [INF] Start processing HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:15:39.665 +06:00 [INF] Sending HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:15:39.736 +06:00 [INF] Received HTTP response headers after 67.9002ms - 200
+2024-10-23 15:15:39.737 +06:00 [INF] End processing HTTP request after 84.9031ms - 200
+2024-10-23 15:15:39.869 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - 200 null null 251.3066ms
+2024-10-23 15:16:37.715 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - application/json 768
+2024-10-23 15:16:37.718 +06:00 [INF] requestId: 40000038-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:16:37.718 +06:00 [INF] requestId: 40000038-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v4/spg/CreatePayment is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2024-10-23 15:16:37.718 +06:00 [INF] requestId: 40000038-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Client has been authenticated for /api/v4/spg/CreatePayment
+2024-10-23 15:16:37.718 +06:00 [INF] requestId: 40000038-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2024-10-23 15:16:37.718 +06:00 [INF] requestId: 40000038-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2024-10-23 15:16:37.718 +06:00 [INF] requestId: 40000038-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v3/spgservice/CreatePaymentRequest route does not require user to be authorized
+2024-10-23 15:16:37.761 +06:00 [WRN] requestId: 40000038-0009-ff00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://10.32.20.86:6314/api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:16:37.764 +06:00 [INF] Request finished HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - 401 61 application/json; charset=utf-8 49.0439ms
+2024-10-23 15:16:51.063 +06:00 [INF] User profile is available. Using 'C:\Users\Hasan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-23 15:16:51.543 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:16:51.562 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:16:51.613 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/swagger/index.html - null null
+2024-10-23 15:16:51.700 +06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 15:16:51.709 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 15:16:51.709 +06:00 [INF] Hosting environment: Development
+2024-10-23 15:16:51.710 +06:00 [INF] Content root path: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG
+2024-10-23 15:16:51.801 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/swagger/index.html - 200 null text/html;charset=utf-8 188.7816ms
+2024-10-23 15:16:51.841 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-23 15:16:51.846 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.9074ms
+2024-10-23 15:16:52.003 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - null null
+2024-10-23 15:16:52.047 +06:00 [INF] Start processing HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:16:52.047 +06:00 [INF] Sending HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:16:52.118 +06:00 [INF] Received HTTP response headers after 68.6556ms - 200
+2024-10-23 15:16:52.119 +06:00 [INF] End processing HTTP request after 75.34ms - 200
+2024-10-23 15:16:52.256 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - 200 null null 252.7019ms
+2024-10-23 15:16:55.421 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - application/json 768
+2024-10-23 15:16:55.588 +06:00 [INF] requestId: 4000002b-0000-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:16:55.591 +06:00 [INF] requestId: 4000002b-0000-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v4/spg/CreatePayment is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2024-10-23 15:16:55.592 +06:00 [INF] requestId: 4000002b-0000-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: Client has been authenticated for /api/v4/spg/CreatePayment
+2024-10-23 15:16:55.593 +06:00 [INF] requestId: 4000002b-0000-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2024-10-23 15:16:55.595 +06:00 [INF] requestId: 4000002b-0000-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2024-10-23 15:16:55.595 +06:00 [INF] requestId: 4000002b-0000-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v3/spgservice/CreatePaymentRequest route does not require user to be authorized
+2024-10-23 15:16:55.653 +06:00 [WRN] requestId: 4000002b-0000-f300-b63f-84710c7967bb, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://10.32.20.86:6314/api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:16:55.670 +06:00 [INF] Request finished HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - 401 61 application/json; charset=utf-8 248.9543ms
+2024-10-23 15:18:28.857 +06:00 [INF] User profile is available. Using 'C:\Users\Hasan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-23 15:18:29.335 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:18:29.365 +06:00 [WRN] The WebRootPath was not found: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG\wwwroot. Static files may be unavailable.
+2024-10-23 15:18:29.418 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/swagger/index.html - null null
+2024-10-23 15:18:29.493 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-23 15:18:29.493 +06:00 [WRN] Failed to determine the https port for redirect.
+2024-10-23 15:18:29.494 +06:00 [INF] Hosting environment: Development
+2024-10-23 15:18:29.494 +06:00 [INF] Content root path: D:\API-GATEWAY-SPG\API-GATEWAY-SPG\API-GATEWAY-SPG
+2024-10-23 15:18:29.587 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/swagger/index.html - 200 null text/html;charset=utf-8 169.9738ms
+2024-10-23 15:18:29.625 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-23 15:18:29.631 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.8175ms
+2024-10-23 15:18:29.836 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - null null
+2024-10-23 15:18:29.875 +06:00 [INF] Start processing HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:18:29.876 +06:00 [INF] Sending HTTP request GET http://localhost:7003/swagger/v1/swagger.json
+2024-10-23 15:18:29.959 +06:00 [INF] Received HTTP response headers after 80.5908ms - 200
+2024-10-23 15:18:29.960 +06:00 [INF] End processing HTTP request after 89.353ms - 200
+2024-10-23 15:18:30.063 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:7000/gateway/swagger/docs/v1/projects - 200 null null 227.387ms
+2024-10-23 15:18:33.923 +06:00 [INF] Request starting HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - application/json 768
+2024-10-23 15:18:34.081 +06:00 [INF] requestId: 40000071-0004-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:18:34.084 +06:00 [INF] requestId: 40000071-0004-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v4/spg/CreatePayment is an authenticated route. AuthenticationMiddleware checking if client is authenticated
+2024-10-23 15:18:34.084 +06:00 [INF] requestId: 40000071-0004-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: Client has been authenticated for /api/v4/spg/CreatePayment
+2024-10-23 15:18:34.086 +06:00 [INF] requestId: 40000071-0004-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: route is authenticated scopes must be checked
+2024-10-23 15:18:34.088 +06:00 [INF] requestId: 40000071-0004-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: user scopes is authorized calling next authorization checks
+2024-10-23 15:18:34.088 +06:00 [INF] requestId: 40000071-0004-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: /api/v3/spgservice/CreatePaymentRequest route does not require user to be authorized
+2024-10-23 15:18:34.129 +06:00 [WRN] requestId: 40000071-0004-fe00-b63f-84710c7967bb, previousRequestId: no previous request id, message: 401 (Unauthorized) status code, request uri: http://10.32.20.86:6314/api/v3/spgservice/CreatePaymentRequest
+2024-10-23 15:18:34.145 +06:00 [INF] Request finished HTTP/1.1 POST http://localhost:7000/api/v4/spg/CreatePayment - 401 61 application/json; charset=utf-8 222.8033ms

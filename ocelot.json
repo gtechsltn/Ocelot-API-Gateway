@@ -1,0 +1,82 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Auth/GetToken",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/spg/GetToken",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "BasicAuth",
+        "AllowedScopes": [
+
+        ]
+      },
+      "SwaggerKey": "projects"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Auth/RefreshToken",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7003
+        }
+      ],
+      "UpstreamPathTemplate": "/api/spg/RefreshToken",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [
+          "ADMIN"
+        ]
+      },
+      "SwaggerKey": "projects"
+    },
+    {
+      "DownstreamPathTemplate": "/v2/odds/league/865927/bookmaker",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "api-football-v1.p.rapidapi.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/v2/odds/league/865927/bookmaker",
+      "UpstreamHttpMethod": [ "GET" ],
+      "HttpHandlerOptions": {
+        "UseProxy": false,
+        "AllowAutoRedirect": true
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": [
+          "SPG"
+        ]
+      },
+      "SwaggerKey": "projects"
+    }
+  ],
+  "SwaggerEndPoints": [
+     {
+      "Key": "projects",
+      "Config": [
+        {
+          "Name": "Projects API",
+          "Version": "v1",
+          "Url": "http://localhost:7003/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:7000",
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/administration"
+  }
+}
