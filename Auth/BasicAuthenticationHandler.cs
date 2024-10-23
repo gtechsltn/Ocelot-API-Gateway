@@ -1,4 +1,5 @@
-﻿using APIGATEWAYSPG.Interfaces;
+﻿using ApiGatewayWebApi.Interfaces;
+using ApiGatewayWebApi.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -9,7 +10,7 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace APIGATEWAYSPG.Auth
+namespace ApiGatewayWebApi.Auth
 {
     public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
     {
@@ -59,14 +60,6 @@ namespace APIGATEWAYSPG.Auth
 
             return AuthenticateResult.Success(ticket);
         }
-    }
-
-
-
-    public class User
-    {
-        public string User_Id { get; internal set; }
-        public string UserName { get; internal set; }
     }
 
 }

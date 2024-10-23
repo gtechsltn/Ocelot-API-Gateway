@@ -1,10 +1,10 @@
-﻿using APIGATEWAYSPG.Auth;
+﻿using ApiGatewayWebApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace APIGATEWAYSPG.Interfaces
+namespace ApiGatewayWebApi.Interfaces
 {
     public interface IUserService
     {

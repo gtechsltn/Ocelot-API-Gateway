@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
-namespace APIGATEWAYSPG.Handlers
+namespace ApiGatewayWebApi.Handlers
 {
     public class CustomHeaderHandlerMiddleware
     {

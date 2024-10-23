@@ -21,14 +21,14 @@ using Ocelot.Middleware;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http.Headers;
 using Microsoft.Extensions.Options;
-using APIGATEWAYSPG.Auth;
-using APIGATEWAYSPG.Interfaces;
-using APIGATEWAYSPG.Services;
-using APIGATEWAYSPG.Handlers;
 using Serilog;
 using Ocelot.Values;
+using ApiGatewayWebApi.Interfaces;
+using ApiGatewayWebApi.Handlers;
+using ApiGatewayWebApi.Services;
+using ApiGatewayWebApi.Auth;
 
-namespace APIGATEWAYSPG
+namespace ApiGatewayWebApi
 {
     public class Startup
     {
@@ -134,7 +134,7 @@ namespace APIGATEWAYSPG
 
             app.UseStaticFiles();
             // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SONALI API GATEWAY v1"));
-                        
+
 
             app.UseMiddleware<CustomHeaderHandlerMiddleware>();
             //app.UseMiddleware<LoggingHandler>();

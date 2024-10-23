@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-namespace APIGATEWAYSPG.Controllers
+namespace ApiGatewayWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
